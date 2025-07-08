@@ -1,0 +1,66 @@
+.loginCard {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+}
+.main {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center;     /* Centra verticalmente */
+  min-height: 100vh;       /* Toma toda la altura de la pantalla */
+  padding: 2rem;
+  background-color: #f4f4f4; /* Opcional: un fondo claro */
+}
+
+
+.loginTitle {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.loginInput {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border 0.2s;
+}
+
+.loginInput:focus {
+  outline: none;
+  border-color: #1976d2;
+  box-shadow: 0 0 0 2px rgba(25, 118, 210, 0.2);
+}
+
+.loginButton {
+  padding: 12px;
+  font-size: 16px;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.loginButton:hover {
+  background-color: #1565c0;
+}
+
+.loginMensaje {
+  margin-top: 1rem;
+  font-weight: 500;
+  color: #2e7d32; /* Verde */
+}
+
+.loginMensaje:has(> :not(:contains("Bienvenido"))) {
+  color: #d32f2f; /* Rojo si no es bienvenida */
+}

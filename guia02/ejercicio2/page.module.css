@@ -1,0 +1,78 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+.container__list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list {
+  margin-bottom: 5px;
+}
+
+.title {
+  margin: 20px 0;
+  border: 0;
+  border-top: 1px solid #ccc;
+}
+
+.nameclub {
+  margin: 20px 0;
+  border: 0;
+  border-top: 1px solid rgb(29, 84, 185);
+}
+
+/* Estilo base de las tarjetas */
+.jugadorCard {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.jugadorCard:hover {
+  transform: scale(1.02);
+}
+
+/* Estilos de color únicos por equipo */
+.card-equipo-1 {
+  background-color: #ffffff; /* celeste */
+}
+
+.card-equipo-2 {
+  background-color: #504a9c; /* naranja claro */
+}
+
+.card-equipo-3 {
+  background-color: #2d3458; /* morado claro */
+}
+.card-equipo-4 {
+  background-color: #f3574c; /* morado claro */
+}
+.card-equipo-5 {
+  background-color: #ac513a; /* morado claro */
+}
+
+.foto {
+  width: 100px;
+  height: 100px;
+  object-fit: cover; /* recorta y ajusta bien la imagen */
+  border-radius: 8px;
+  margin-right: 15px;
+  border: 2px solid #ddd;
+}
+
+
+.jugadorCard div {
+  display: flex;
+  flex-direction: column;
+}
