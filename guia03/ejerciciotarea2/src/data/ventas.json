@@ -1,0 +1,31 @@
+[
+  { "año": 2020, "mes": "Enero", "monto": 2200 },
+  { "año": 2020, "mes": "Febrero", "monto": 1800 },
+  { "año": 2020, "mes": "Marzo", "monto": 2500 },
+  { "año": 2020, "mes": "Abril", "monto": 2700 },
+  { "año": 2020, "mes": "Mayo", "monto": 2900 },
+
+  { "año": 2021, "mes": "Enero", "monto": 3100 },
+  { "año": 2021, "mes": "Febrero", "monto": 3300 },
+  { "año": 2021, "mes": "Marzo", "monto": 2800 },
+  { "año": 2021, "mes": "Abril", "monto": 3500 },
+  { "año": 2021, "mes": "Mayo", "monto": 3700 },
+
+  { "año": 2022, "mes": "Enero", "monto": 4200 },
+  { "año": 2022, "mes": "Febrero", "monto": 4000 },
+  { "año": 2022, "mes": "Marzo", "monto": 4400 },
+  { "año": 2022, "mes": "Abril", "monto": 4600 },
+  { "año": 2022, "mes": "Mayo", "monto": 4800 },
+
+  { "año": 2023, "mes": "Enero", "monto": 5000 },
+  { "año": 2023, "mes": "Febrero", "monto": 3000 },
+  { "año": 2023, "mes": "Marzo", "monto": 4000 },
+  { "año": 2023, "mes": "Abril", "monto": 3500 },
+  { "año": 2023, "mes": "Mayo", "monto": 3800 },
+
+  { "año": 2024, "mes": "Enero", "monto": 7000 },
+  { "año": 2024, "mes": "Febrero", "monto": 6500 },
+  { "año": 2024, "mes": "Marzo", "monto": 7200 },
+  { "año": 2024, "mes": "Abril", "monto": 6800 },
+  { "año": 2024, "mes": "Mayo", "monto": 7100 }
+]
