@@ -1,0 +1,59 @@
+[
+  {
+    "nombre": "Mercurio",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgfkcmLG5QgJavMlzmwJA9wgr5hYfpeppQiA&s",
+    "masa": "3.3 × 10^23 kg",
+    "distancia": "57.9 millones km",
+    "temperatura": "167°C"
+  },
+  {
+    "nombre": "Venus",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvZWRBBoSNp8IFD269mGgBIBXwsVwoDBoe7w&s",
+    "masa": "4.87 × 10^24 kg",
+    "distancia": "108.2 millones km",
+    "temperatura": "464°C"
+  },
+  {
+    "nombre": "Tierra",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/960px-The_Earth_seen_from_Apollo_17.jpg",
+    "masa": "5.97 × 10^24 kg",
+    "distancia": "149.6 millones km",
+    "temperatura": "15°C"
+  },
+  {
+    "nombre": "Marte",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/OSIRIS_Mars_true_color.jpg/1200px-OSIRIS_Mars_true_color.jpg",
+    "masa": "6.42 × 10^23 kg",
+    "distancia": "227.9 millones km",
+    "temperatura": "-65 °C"
+  },
+  {
+    "nombre": "Júpiter",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Jupiter_OPAL_2024.png/1200px-Jupiter_OPAL_2024.png",
+    "masa": "1.90 × 10^27 kg",
+    "distancia": "778.5 millones km",
+    "temperatura": "-110 °C"
+  },
+  {
+    "nombre": "Saturno",
+    "imagen": "https://fotos.perfil.com/2023/09/13/trim/900/900/cientificos-de-la-nasadescubrieron-que-el-hielo-que-contienen-los-anillos-de-saturno-estan-cayendo-lentamente-1653025.jpg",
+    "masa": "5.68 × 10^26 kg",
+    "distancia": "1,433 millones km",
+    "temperatura": "-140 °C"
+  },
+  {
+    "nombre": "Urano",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/6/69/Uranus_Voyager2_color_calibrated.png",
+    "masa": "8.68 × 10^25 kg",
+    "distancia": "2,872 millones km",
+    "temperatura": "-195 °C"
+  },
+  {
+    "nombre": "Neptuno",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa2GuNfxrs5gFcoEh13YFXhpE5gHl5Z_7xNQ&s",
+    "masa": "1.02 × 10^26 kg",
+    "distancia": "4,495 millones km",
+    "temperatura": "-200 °C"
+  }
+
+]
