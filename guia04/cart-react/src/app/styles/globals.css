@@ -1,12 +1,14 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #000000;
+  --foreground: #000000;
 }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #000000;
+    --foreground: #000000;
   }
 }
 
@@ -16,10 +18,12 @@ body {
   overflow-x: hidden;
 }
 
+
+
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -44,3 +48,24 @@ body {
   font-family: Arial, sans-serif;  
    margin: 0;  
     padding: 0; } 
+
+    /* En styles/globals.css o styles/cart-detail.css */
+
+.main-content {
+  transition: margin-right 0.3s ease, transform 0.3s ease;
+  padding: 1rem;
+}
+
+/* Cuando el carrito está abierto */
+.main-content.cart-open {
+  transform: translateX(-300px);
+  opacity: 0.95;
+}
+
+.productos-titulo {
+  color: rgb(255, 123, 0); /* Cambia el color a lo que prefieras */
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
